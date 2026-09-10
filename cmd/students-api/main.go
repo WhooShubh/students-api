@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import "github.com/WhooShubh/students-api/internal/config"
 
 func main() {
-	fmt.Println("Hello, Students-API")
+	//load config
+	cfg := config.MustLoad()
+
+	//database setip
+
+	//setup router
+
+	//setup server
 }
