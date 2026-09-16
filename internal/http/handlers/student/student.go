@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/WhooShubh/students-api/internal/storage"
 	"github.com/WhooShubh/students-api/internal/types"
 	"github.com/WhooShubh/students-api/internal/utils/response"
 	"github.com/go-playground/validator/v10"
-	"github.cstorageShubh/students-api/internal/storage"
 )
 
 func New(storage storage.Storage) http.HandlerFunc {
